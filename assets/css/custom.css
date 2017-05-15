@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+th,td {
+  text-align: center !important;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.row {
+  margin:0px !important;
+  padding: 0px !important;
+}
+ .header {
+   padding: 0px !important;
+ }
+
+.menu-top {
+  height: 50px;
+}
+
+.nav-top {
+  background-repeat: repeat;
+}
+
+.back_slide{
+  width:100% !important;
+}
+
+.logo_admin {
+  width: 100px !important;
+  vertical-align: middle;
+}
+
+.btn-floating{
+  background-color: rgb(192,73,43) !important;
+}
+
+.side-nav li>a {
+  padding: 0px 20px !important;
+}
+
+.admin-nav-collapse{
+  padding: 0px 61px !important;
+}
+
+.material-icons {
+  margin-right: 1rem !important;
+}
+
+.cover-out{
+  padding: 10px !important;
+}
+
+.cover-out h4 {
+  text-align: center;
+  margin:0 0 0.912rem !important;
+}
+
+.cover-in {
+  overflow: hidden;
+  background-color: red;
+  padding:5px 28px 5px;
+}
+
+.cover-in .titl{
+  width: 80px !important;
+  float: left;
+}
+
+.cover-in p {
+  float: right;
+  font-size: 42px;
+  line-height: 79px;
+}
+
+.cate-out {
+  padding-top: 50px;
+}
