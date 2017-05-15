@@ -14,7 +14,7 @@ class proses extends CI_Model{
 
     }
   function insert($table,$aksinya){
-    $this->db->insert($table,$insert);
+    $this->db->insert($table,$aksinya);
   }
 
   function edit($table = "",$aksinya = "", $id = 0){

@@ -43,7 +43,7 @@ class Admin extends CI_Controller {
       $aksinya = array(
         'name' => $name_cate,
       );
-      $this->proses->insert('kategori_prp',$insert);
+      $this->proses->insert('kategori_prp',$aksinya);
     }elseif($tombol == "Edit"){
       $id = $this->input->post('id');
       $name_cate = $this->input->post('cate');
